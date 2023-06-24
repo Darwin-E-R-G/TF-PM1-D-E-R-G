@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Botonmenu from './botonmenu';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 
 function Menu() {
@@ -11,18 +13,21 @@ function Menu() {
     }
     return (
     <>
+
         <Navbar>
-        <h2>Darwin <span> Robles</span></h2>
+        <h2><Link to='/'>Darwin <span> Robles</span></Link> </h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
-            <a href="">Perfil</a>
-            <a href="">Estudios</a>
-            <a href="">Skill</a>
-            <a href="">Experiencia</a>
-            <a href="">Contacto</a>
+            <Link to="/" > Perfil </Link>
+            <Link to='/estu'>Estudios</Link>
+            <Link to='/skil'>Skill</Link>
+            <Link to='/expe'>Experiencia</Link>
+            <Link to='/conta'>Contacto</Link>
         </div>
         <div className='boton'><Botonmenu clicked = {clicked} hadleClicked= {hadleClicked}/></div>
         <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
+        
         </Navbar>
+   
     </>
     );
 }
