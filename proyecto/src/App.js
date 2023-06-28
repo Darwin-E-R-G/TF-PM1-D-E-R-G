@@ -10,7 +10,8 @@ import Estudios from './componentes/estudio';
 
 function App() {
   return (
-    <>
+    <div className='hom'>
+      <div>
     <Menu/>
     <Routes>
      
@@ -20,7 +21,8 @@ function App() {
       <Route path='/conta/' element= {<Contacto/>}/>
       <Route path='/estu/' element= {<Estudios/>}/>
     </Routes>
-    </>
+    </div>
+    </div>
   );
 }
 

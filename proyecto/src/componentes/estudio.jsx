@@ -2,7 +2,7 @@ import React from 'react'
 
 function Estudio() {
   return (
-    <div>
+    <div className="q">
       hola estudio
     </div>
   )

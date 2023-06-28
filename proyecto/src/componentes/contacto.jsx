@@ -1,9 +1,10 @@
 import React from 'react'
+import Conta from './componenteContacto/conta'
 
 function Contacto() {
   return (
-    <div>
-      hola contacto
+    <div className="q">
+      <Conta></Conta>
     </div>
   )
 }

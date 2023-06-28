@@ -1,0 +1,35 @@
+.expe{
+  display: flex;
+  align-items: center;
+}
+.p{
+  width: 100%;
+  height: 100%;
+
+}
+.q{
+  display: flex;
+  height: 700px;
+  padding: 10px;
+}
+.hom{
+  padding: 10px;
+  display: flex;
+  height: 110%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://1.bp.blogspot.com/-WjagDu7_Sk0/X8tpkLCbadI/AAAAAAAAcLs/6HzJWyGox4gJbVuvQx1Hb4y9g8p61vAVwCLcBGAsYHQ/s640/eportfolio.png');
+  background-size: cover;
+  background-position: center;
+}
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Perfil() {
   return (
-    <div>
+    <div className="q">
       hola perfil
     </div>
   )
