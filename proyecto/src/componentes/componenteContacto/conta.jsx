@@ -6,7 +6,7 @@ function Conta() {
      <>
     <div class="wrapper">
     <form class="form">
-      <input type="text" class="name entry " placeholder="Your Name"/>
+      <input type="text" class="name entry " placeholder="Nombre"/>
       
       <input type="text" class="email entry" placeholder="Email"/>
       

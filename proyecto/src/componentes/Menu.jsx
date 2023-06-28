@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Botonmenu from './botonmenu';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from './imagenes/logo.png'; 
 
 
 function Menu() {
@@ -15,6 +15,7 @@ function Menu() {
     <>
 
         <Navbar>
+        <img src={logo} alt="Avatar" class="avatar"/>
         <h2><Link to='/'>Darwin <span> Robles</span></Link> </h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
             <Link to="/" > Perfil </Link>
@@ -25,6 +26,7 @@ function Menu() {
         </div>
         <div className='boton'><Botonmenu clicked = {clicked} hadleClicked= {hadleClicked}/></div>
         <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
+        
         
         </Navbar>
     </>

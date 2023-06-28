@@ -40,6 +40,16 @@
   font-size: 35px;
   color: #36A0FF;
 }
+/*estilos de avatar__________________*/
+.avatar {
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+
+/*fin de estilos del avatar ---------------*/
 
 /*estilos del formulario de contacto----------------------------------------------------*/
 
@@ -135,7 +145,7 @@
   border-radius: 5px;
   border: none;
   transition: all 0.5s ease 0s;
-  box-shadow: 0px 0px 25px 2px #AAA;  
+  box-shadow: 0px 0px 25px 2px #063642;  
 }
 
 /* Shadow to make it look like form is floating  */

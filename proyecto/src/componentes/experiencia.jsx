@@ -6,9 +6,6 @@ function Experiencia() {
   return (
     <>
     <div><Expe/></div>
-   
-    
-   
     </>
   );
 }
