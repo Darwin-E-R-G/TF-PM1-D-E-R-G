@@ -27,7 +27,6 @@ function Menu() {
         <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
         
         </Navbar>
-   
     </>
     );
 }

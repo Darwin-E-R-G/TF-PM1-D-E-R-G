@@ -14,7 +14,6 @@ function App() {
       <div>
     <Menu/>
     <Routes>
-     
       <Route path='/'  element= {<Perfil/>}/>
       <Route path='/skil/' element= {<Skil/>}/>
       <Route path='/expe/' element= {<Experiencia/>}/>
