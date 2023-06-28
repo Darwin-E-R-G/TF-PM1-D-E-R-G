@@ -41,6 +41,7 @@ h2{
         font-weight: bold;
     }
 }
+margin-bottom: 1rem;
 padding: .7rem;
 background-color:#333;
 display: flex;
