@@ -4,9 +4,9 @@ import Expe from "./componenteExpe/expe";
 
 function Experiencia() {
   return (
-    <>
+    
     <div><Expe/></div>
-    </>
+    
   );
 }
 

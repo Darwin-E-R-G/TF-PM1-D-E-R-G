@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Estudi from "./componentesEstudios/estu";
+///import Estudi from "./componentesEstudios/estudi";
 
 function Estudio() {
   return (
-    <div className="q">
-      hola estudio
-    </div>
-  )
+    <form className="from">
+      <Estudi></Estudi>
+    </form>
+  );
 }
 
-export default Estudio
+export default Estudio;

@@ -9,9 +9,11 @@
 }
 .s{
   margin-bottom: 1rem;
+  margin-right: 1rem;
   display: flex;
-  width: 100%;
+  
 }
+
 .hom{
 
   padding: 10px;
@@ -62,14 +64,15 @@
 /* form animation starts */
 .form {
   background: #EBEBEB;
-  text-align: center; 
-  box-shadow: 0px 0px 20px 5px #AAA; 
-  border-radius: 10px;  
-  width: 85%; 
+  text-align: center;
+  box-shadow: 0px 0px 20px 5px #AAA;
+  border-radius: 10px;
+  width: 85%;
   height: 400px;
   margin: 30px auto 0 auto;
-  padding: 10px 10px;  
+  padding: 10px 10px;
   animation: bounce 1.5s infinite;
+  -webkit-animation: bounce 1.5s infinite;
 }
 
 .name { 
@@ -195,3 +198,10 @@
 
 
 /*fin de estilos de formulario----------------------------------------------------------*/
+
+
+.todo{
+  padding: 1px;
+  margin-left: 6rem;
+ 
+}

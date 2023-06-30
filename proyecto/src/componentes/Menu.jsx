@@ -15,7 +15,7 @@ function Menu() {
     <>
 
         <Navbar>
-        <img src={logo} alt="Avatar" class="avatar"/>
+        <Link to='/'> <img src={logo} alt="Avatar" class="avatar"/></Link>
         <h2><Link to='/'>Darwin <span> Robles</span></Link> </h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
             <Link to="/" > Perfil </Link>

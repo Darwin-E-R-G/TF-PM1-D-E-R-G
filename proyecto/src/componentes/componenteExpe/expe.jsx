@@ -4,8 +4,8 @@ import Card from "react-bootstrap/Card";
 function Expe() {
   return (
     <div className="q">
-      <div>
-        <Card style={{ width: "14em" }}>
+      <div className="s">
+        <Card style={{ width: "14em" ,  height:"18em"}}>
           <Card.Img
             variant="top"
             src="https://tuataras.net/wp-content/uploads/Persona-programando.png"
@@ -18,8 +18,8 @@ function Expe() {
           </Card.Body>
         </Card>
       </div>
-      <div>
-        <Card style={{ width: "14em" }}>
+      <div className="s">
+        <Card style={{ width: "14em" ,  height:"18em"}}>
           <Card.Img
             variant="top"
             src="https://tuataras.net/wp-content/uploads/Persona-programando.png"
@@ -32,8 +32,8 @@ function Expe() {
           </Card.Body>
         </Card>
       </div>
-      <div>
-        <Card style={{ width: "14em" }}>
+      <div className="s">
+        <Card style={{ width: "14em" ,  height:"18em"}}>
           <Card.Img
             variant="top"
             src="https://tuataras.net/wp-content/uploads/Persona-programando.png"

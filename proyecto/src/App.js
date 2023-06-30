@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as router, Routes, Route } from 'react-router-dom';
 import Menu from './componentes/Menu';
 import Perfil from './componentes/perfil';
 import Skil from './componentes/skil';

@@ -7,7 +7,7 @@ function Skill() {
     <div>
        <div >
         <div className="s">
-          <div>
+          <div className="s">
             <Card style={{ width: "14em" }}>
               <Card.Img
                 variant="top"
@@ -20,7 +20,7 @@ function Skill() {
               </Card.Body>
             </Card>
           </div>
-          <div>
+          <div className="s">
             <Card style={{ width: "14em" }}>
               <Card.Img
                 variant="top"
@@ -33,7 +33,7 @@ function Skill() {
               </Card.Body>
             </Card>
           </div>
-          <div>
+          <div className="s">
             <Card style={{ width: "14rem" }}>
               <Card.Img
                 variant="top"
@@ -49,7 +49,7 @@ function Skill() {
         </div>
       </div>
       <div className="s">
-        <div>
+        <div className="s">
           <Card style={{ width: "14em" }}>
             <Card.Img
               variant="top"
@@ -62,7 +62,7 @@ function Skill() {
             </Card.Body>
           </Card>
         </div>
-        <div>
+        <div className="s">
           <Card style={{ width: "14em" }}>
             <Card.Img
               variant="top"
@@ -75,7 +75,7 @@ function Skill() {
             </Card.Body>
           </Card>
         </div>
-        <div>
+        <div className="s">
           <Card style={{ width: "14em" }}>
             <Card.Img
               variant="top"
