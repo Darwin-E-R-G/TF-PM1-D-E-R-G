@@ -20,7 +20,11 @@ function App() {
       <Route path='/conta/' element= {<Contacto/>}/>
       <Route path='/estu/' element= {<Estudios/>}/>
     </Routes>
+    <footer className='foot'>
+          <h6>Copyright &#169; 2023 Darwin Robles</h6>
+        </footer>
     </div>
+   
     </div>
   );
 }
